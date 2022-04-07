@@ -13,6 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="./script/index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <style>
         .subheading.title {
             margin-bottom: 12px !important;
@@ -28,6 +29,21 @@
         .why_choose_title {
             font-size: 15px;
             font-weight: 600;
+        }
+        .missonandchallange::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        .missonandchallange::-webkit-scrollbar-button {
+            background: #ccc;
+        }
+
+        .missonandchallange::-webkit-scrollbar-track-piece {
+            background: #eee;
+        }
+
+        .missonandchallange::-webkit-scrollbar-thumb {
+            background: #a8a8a8;
         }
     </style>
 </head>
@@ -168,7 +184,7 @@
                 <div class="col-md-4 col-xs-12 block">
                     <div class="col-md-2 col-xs-2">
                         <!-- <i class="fa fa-laptop feature_icon"></i> -->
-                        <img src="./img/eye-vision.png" height="36" width="36">
+                        <img src="./img/eye-vision.png" height="36" width="41">
                     </div>
                     <div class="col-md-10 col-xs-10">
                         <h4>Vision</h4>
@@ -192,9 +208,12 @@
                         <!-- <i class="fa fa-support feature_icon"></i> -->
                         <img src="./img/our-mission-icon.png" height="34" width="33">
                     </div>
-                    <div class="col-md-10 col-xs-10">
+                    <div class="col-md-10 col-xs-10 missonandchallange" style="overflow-y: scroll;height: 178px;">
                         <h4>Mission & Challenge</h4>
-                        <p>To use our extensive knowledge in fabrication , our suppliers relationships, our technical skills, and a commitment to create exceptional value for our customers to build our company for the benefit of all clients. We don’t limit our challenges. We always challenge our limits.
+                        <p>To use our extensive knowledge in fabrication , our suppliers relationships, our technical skills, and a commitment to create exceptional value for our customers to build our company for the benefit of all clients.
+                        <br>    
+                        <div style="text-align: left;"><b>CHALLANGE</b></div>
+                        We don’t limit our challenges. We always challenge our limits.
                         </p>
                         <!-- <a href="#" class="readmore">Read More <i class="fa fa-caret-right"></i></a> -->
                     </div>
@@ -216,10 +235,11 @@
             <div class="col-md-7 col-md-offset-5 col-sm-8 col-sm-offset-2 col-xs-12 text-inner ">
                 <div class="text-block">
                     <div class="section-heading">
-                        <h1>ABOUT <span>US</span></h1>
-                        <p class="subheading title">Proprietor Mr. M. JAYAKUMAR</p>
+                        <h1 style="margin-bottom: 17px;">ABOUT <span>US</span></h1>
+                        
+                        <p class="title" style="font-size: 18px;"><b>Proprietor Mr. M. JAYAKUMAR</b></p>
                     </div>
-
+                        
                     <ul class="aboutul">
                         
                         <li> Jayakumar is an engineering professional with 22 + years experience of working for leading oilfield
@@ -410,7 +430,7 @@
                         <p>Plot No 7 & 8, The Temple Town, Kundrathur Village,
                             Chennai - 600069.
                         </p>
-                        <a href="#" class="learnmore">Learn More <i class="fa fa-caret-right"></i></a>
+                        <a href="contact.html" class="learnmore">Learn More <i class="fa fa-caret-right"></i></a>
                     </div>
                 </div>
 
@@ -419,12 +439,12 @@
                         <h4>Useful Links</h4>
                         <hr/>
                         <ul class="footer-links">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Sign In</a></li>
-                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <!-- <li><a href="#">Features</a></li> -->
+                            <!-- <li><a href="#">Portfolio</a></li> -->
+                            <li><a href="contact.html">Contact</a></li>
+                            <!-- <li><a href="#">Sign In</a></li> -->
+                            <!-- <li><a href="#">Sign Up</a></li> -->
                         </ul>
                     </div>
                 </div>
